@@ -1,9 +1,20 @@
-.navbar{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500;600&display=swap');
 
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    padding-bottom: 50px;
+}
+
+.cari{
+    padding-top: 0px;
+    padding-left: 500px;
 }
 
 form{
-    padding-left: 700px;
+    padding-left: 900px;
 }
 
 li a img{
@@ -15,17 +26,39 @@ li a img{
 }
 
 .halaman1{
-    padding: 20px;
-    
+    width: 2000px;
+    padding-top: 50px;
+}
+
+.bacground{
+    background: rgb(7,101,133);
+    background: linear-gradient(90deg, rgba(7,101,133,1) 0%, rgba(255,255,255,1) 100%);
 }
 
 .text{
-    max-width: 410px;
+    max-width: 500px;
     position: absolute;
 }
 
-.halaman1 img{
+.text p{
+    font-size: 12px;
+    padding-top: 60px;
+}
+
+img.kanan {
     border-radius: 5%;
+    width: 300px;
+    height: 200px;
+    padding: 0px;
+    float: right;
+    margin: 5px;
+}
+
+.product{
+    padding-top: 20px;
+}
+
+.cart img{
     width: 300px;
     height: 200px;
 }
