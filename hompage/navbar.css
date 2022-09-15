@@ -1,0 +1,31 @@
+.navbar{
+
+}
+
+form{
+    padding-left: 700px;
+}
+
+li a img{
+    list-style: none;
+}
+
+.dropdown{
+    list-style:none;
+}
+
+.halaman1{
+    padding: 20px;
+    
+}
+
+.text{
+    max-width: 410px;
+    position: absolute;
+}
+
+.halaman1 img{
+    border-radius: 5%;
+    width: 300px;
+    height: 200px;
+}
